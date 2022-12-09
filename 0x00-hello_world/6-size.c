@@ -4,11 +4,17 @@
  * Return: Always 0
  */
 int main(void)
-{  
-	printf("Size of a char: %i byte(s)\n", sizeof(char));
-        printf("Size of an int: %i byte(s)\n", sizeof(int));
-        printf("Size of a long int: %i byte(s)\n", sizeof(long int));
-        printf("Size of a long long int: %i byte(s)\n", sizeof( long long int));
-        printf("Size of a float: %i byte(s)\n", size(float)); 
-   return (0);	
- }
+{
+	char working;
+	int good;
+	long day;
+	long long dancer;
+	float gym;
+
+	printf("Size of a char: %l byte(s)", sizeof(working));
+	printf("Size of an int: %l byte(s)", sizeof(good));
+	printf("size of an long int: %l byte(s)", sizeof(day));
+	printf("Size of a long long int: %l byte(s)", sizeof(dancer));
+	printf("Size of a float: %l byte(s)", sizeof(gym));
+	return (0);
+}
