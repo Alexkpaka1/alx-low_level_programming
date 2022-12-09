@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 3-name_o 
+gcc $CFI -o cisfun 
