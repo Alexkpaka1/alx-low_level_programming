@@ -11,10 +11,10 @@ int main(void)
 	long long dancer;
 	float gym;
 
-	printf("Size of a char: %l byte(s)", sizeof(working));
-	printf("Size of an int: %l byte(s)", sizeof(good));
-	printf("size of an long int: %l byte(s)", sizeof(day));
-	printf("Size of a long long int: %l byte(s)", sizeof(dancer));
-	printf("Size of a float: %l byte(s)", sizeof(gym));
+	printf("Size of a char: %lu byte(s)\n", sizeof(working));
+	printf("Size of an int: %lu byte(s)\n", sizeof(good));
+	printf("size of an long int: %lu byte(s)\n", sizeof(day));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(dancer));
+	printf("Size of a float: %lu byte(s)\n", sizeof(gym));
 	return (0);
 }
