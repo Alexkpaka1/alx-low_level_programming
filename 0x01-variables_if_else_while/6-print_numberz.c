@@ -1,5 +1,5 @@
 /**
- *main - ntry point
+ *main - Entry point
  *Return: Always
  */
 
