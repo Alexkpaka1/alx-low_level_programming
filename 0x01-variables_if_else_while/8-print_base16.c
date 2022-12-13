@@ -10,10 +10,9 @@ int main(void)
 	int a;
 	char b;
 
-
 	for (a = '0' ; a ; <= '9' ; a++)
 	{
-		putchart(a);
+		putchar(a);
 	}
 	for (b = 'a' ; b <= 'f' ; b++)
 	{
