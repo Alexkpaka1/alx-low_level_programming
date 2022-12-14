@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_alphabet - Entry
  * Return: Always 0
