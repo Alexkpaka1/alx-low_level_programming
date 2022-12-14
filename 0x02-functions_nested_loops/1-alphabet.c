@@ -4,7 +4,7 @@
  * Return: Always 0
  */
 
-#include "main.h'
+#include "1-alphabet.c"
 
 void print_alphabet(void)
 {
