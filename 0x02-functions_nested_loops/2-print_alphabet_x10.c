@@ -3,7 +3,7 @@
  * Return: Always 0
  */
 
-#include "main.h"
+#include <stdio.h>
 
 void print_alphabet_x10(void)
 {
@@ -15,8 +15,8 @@ void print_alphabet_x10(void)
 
 		for (i = 'a' ; i <= 'z' ; i++)
 		{
-			_putchar(i);
+			putchar(i);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
