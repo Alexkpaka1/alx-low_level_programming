@@ -1,4 +1,4 @@
-#include "islower.c"
+#include <stdio.h>
 
 /**
  * _islower - checks for lowrcase character
