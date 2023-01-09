@@ -4,7 +4,7 @@
 
 /**
  * main - prints the minimum number of coins to
- *  make change for an amount of money
+ * make change for an amount of money
  *  @argc: number of arguments
  *   @argv: array of arguments
  *
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	num = atoi(argv[1]);
 	result = 0;
 
-	if = (num < 0)
+	if (num < 0)
 	{
 		printf("0\n");
 		return (0);
